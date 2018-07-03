@@ -24,7 +24,7 @@ function fetchAnimals(e) {
 
   // Fetch Pets
   fetchJsonp(
-      `http://api.petfinder.com/pet.find?format=json&key=dd0ad5dd9e63efb0218784ea2557cb98&animal=${animal}&location=${zip}&callback=callback`, {
+      `https://api.petfinder.com/pet.find?format=json&key=dd0ad5dd9e63efb0218784ea2557cb98&animal=${animal}&location=${zip}&callback=callback`, {
         jsonpCallbackFunction: 'callback'
       }
     )
